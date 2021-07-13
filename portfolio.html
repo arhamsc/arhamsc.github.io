@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <div class="frontDiv" id="mainDiv">
+      <div class="headerBar" id="stickyHeader">
+        <div class="leftElement">Portfo<span class="lio" id="lioID">lio.</span></div>
+        <div class="rightElement">
+          <nav class="rightElement">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="form.html">Logout</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="mainHead" id="home">
+        <p id="first">Konnichiwa, I am </p>
+        <p id="second">Arham</p>
+        <p id="third">And I am
+          <span class="txt-type" data-wait="3000" data-words='["a Student","a Developer","a Programmer","an Otaku"]'>
+          </span>
+          <span class="input-cursor"></span>
+        </p>
+      </div>
+    </div>
+    <!-- <div class="content"> -->
+    <div class="about" id="about">
+      <div class="heading">
+        <div class="headtext">
+          <p>About Me</p>
+        </div>
+        <div class="belowtxt">
+          <div class="line1">
+            <hr>
+          </div>
+          <div class="centertext">
+            <p>Who I am</p>
+          </div>
+          <div class="line2">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="aboutMatter">
+        <div class="image1">
+          <img src="about.png" class="aboutImage">
+        </div>
+        <div class="aboutPara">
+          <p>
+            I am Arham and I am 19 years old. I am from Andhra Pradesh and have been residing in Bangalore. I was born in Adoni,Andhra Pradesh. But migrated to bangalore to continue my studies from Upper Kindergarden. And have stayed in Bangalore for
+            about 12 years. <br>I am good at planning and leading a team, and I have ample experience in it. I am really passionate about computers as I have been fascinated by technology from a very young age. I wanted to build the products rather
+            than just use them so I have chosen CSE at my B.E. I want to continue in this field and do a suitable business down the lane.
+          </p> <br> <br>
+          <div class="CVbutton">
+            <a href="ArhamCV.pdf" download target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div> <br><br><br>
+    <div class="skillsDiv" id="skills">
+      <div class="heading">
+        <div class="headtext">
+          <p>My Skills</p>
+        </div>
+        <div class="belowtxt">
+          <div class="line1">
+            <hr>
+          </div>
+          <div class="centertext">
+            <p>Expertise</p>
+          </div>
+          <div class="line2">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="skillMatter">
+        <div class="skillLeft">
+          <ol>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA Script</li>
+            <li>SwiftUI</li>
+            <span id="hiddenlist"></span>
+          </ol>
+          <div class="Read more button">
+            <button type="button" name="btn" onclick="expand()" id="readbtn">Read More</button>
+
+          </div>
+        </div>
+        <div class="skillRight">
+          <ol>
+            <li>
+              <div class="barItems">
+                <div class="progressMetric">
+                  <p>Python</p>
+                  <p>20%</p>
+                </div><br>
+                <div class="bar">
+                  <progress value="20" max="100">20%</progress>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="barItems">
+                <div class="progressMetric">
+                  <p>HTML</p>
+                  <p>80%</p>
+                </div><br>
+                <div class="bar">
+                  <progress value="80" max="100">80%</progress>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="barItems">
+                <div class="progressMetric">
+                  <p>CSS & JavaScript</p>
+                  <p>40%</p>
+                </div><br>
+                <div class="bar">
+                  <progress value="40" max="100">40%</progress>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="barItems">
+                <div class="progressMetric">
+                  <p>SwiftUI</p>
+                  <p>50%</p>
+                </div><br>
+                <div class="bar">
+                  <progress value="50" max="100">50%</progress>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="barItems">
+                <div class="progressMetric">
+                  <p>C & C++</p>
+                  <p>30%</p>
+                </div><br>
+                <div class="bar">
+                  <progress value="30" max="100">30%</progress>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div> <br><br>
+    <div class="projectsSection" id = "projects">
+      <div class="heading">
+        <div class="headtext">
+          <p>My Projects</p>
+        </div>
+        <div class="belowtxt">
+          <div class="line1">
+            <hr>
+          </div>
+          <div class="centertext">
+            <p>Projects Done</p>
+          </div>
+          <div class="line2">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="individualImages">
+          <div class="insideIndividual1">
+            <a href="Mini-project/index.html" target="_blank">
+              <img src="Admin Page Screen Shot.png"> </a>
+          </div>
+          <div class="insideIndividual2">
+            <p>Admin Page:<br> A simple Admin Dashboard</p>
+          </div>
+        </div>
+        <div class="individualImages">
+          <div class="insideIndividual1">
+            <a href="Html form assignment/Form(Login Page).html" target="_blank">
+              <img src="project2ss.png"> </a>
+          </div>
+          <div class="insideIndividual2">
+            <p>Sign Up Form:<br> A simple Sign Up Form
+            </p>
+          </div>
+        </div>
+        <div class="individualImages">
+          <div class="insideIndividual1">
+            <a href="Parallax Effect/ParallaxEffect.html" target="_blank">
+              <img src="project3ss.png"> </a>
+          </div>
+          <div class="insideIndividual2">
+            <p>Parallax Effect:<br> A Parallax Effect Webpage</p>
+          </div>
+        </div>
+        <div class="individualImages">
+          <div class="insideIndividual1">
+            <a href="Hangman.py" target="_blank">
+              <img src="Hangman.jpg"> </a>
+          </div>
+          <div class="insideIndividual2">
+            <p>Hangman:<br> A simple Hangman Game using Python</p>
+          </div>
+        </div>
+        <div class="individualImages">
+          <div class="insideIndividual1">
+            <a href="Guess the number.py" target="_blank">
+              <img src="Guessnumber.png"> </a>
+          </div>
+          <div class="insideIndividual2">
+            <p>Guess The Number:<br> A Guess the Number game using Python</p>
+          </div>
+        </div>
+        <div class="individualImages">
+          <div class="insideIndividual1">
+            <a href="Rockgame.png" target="_blank">
+              <img src="Rockgame.png"> </a>
+          </div>
+          <div class="insideIndividual2">
+            <p>Rock Paper Scissor:<br> A simple iOS Rock Paper Scissor Game</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contactMatter" id = "contact">
+      <div class="heading">
+        <div class="headtext">
+          <p>Contact Me</p>
+        </div>
+        <div class="belowtxt">
+          <div class="line1">
+            <hr>
+          </div>
+          <div class="centertext">
+            <p>Details</p>
+          </div>
+          <div class="line2">
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="contactMe">
+        <div class="contactLeft">
+          <p id = "ping">Ping Me Up</p>
+          <p id = "pingpara">If you require addtional information, want to get in touch, Hire me or any further assistance.</p>
+          <div class="info">
+            <div class="infoicon">
+              <i class="fas fa-user"></i>
+              <i class="fas fa-map-marker-alt"></i>
+              <i class="fas fa-envelope"></i></i>
+            </div>
+            <div class="infolist">
+              <div class="infolistItem item1">
+                <p>Name:</p>
+                <p>Arham S C</p>
+              </div>
+              <div class="infolistItem item2">
+                <p>Adress:</p>
+                <p>Bangalore, Karnataka</p>
+              </div>
+              <div class="infolistItem item3">
+                <p>Email:</p>
+                <p>
+                  <a href ="mailto: sample@gmail.com">
+                    sample@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contactRight">
+          <div class="formhead">
+            <p>Please feel free to drop a Query:</p>
+          </div>
+          <div class="actualform">
+            <form name = "ResponseForm" method="post" autocomplete="off">
+              <label for="Name">Name:</label> <br>
+              <input type="text" name="Name" placeholder="Enter Name"> <br><br>
+              <label for="Email">Email:</label><br>
+              <input type="email" name="Email" placeholder="Enter Email">
+              <br><br>
+              <label for="Subject">Subject:</label> <br>
+              <input type="text" name="Subject" placeholder="Enter Subject">
+              <br><br>
+              <label for="Query">Query:</label> <br>
+              <textarea name="Query" rows="8" cols="50" placeholder="Type in your query or message"></textarea> <br><br>
+              <div class="buttons">
+                <button type="submit" name="submit" value = "Send Message" id = "btnlast">Submit</button>
+                <button type="reset" name="reset" id = "btnlast">Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <script src="portfolio.js"></script>
+  </body>
+
+</html>

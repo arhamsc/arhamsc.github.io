@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login To Portfolio</title>
+    <link rel="stylesheet" href="form.css">
+
+  </head>
+  <body>
+    <div class="formContainer">
+      <div>
+        <p>Sign in to my Portfolio</p>
+      </div>
+      <div class = "formdiv">
+        <form name = "loginForm">
+          <label>E-Mail ID: </label> <br>
+          <input type="email" name="email" placeholder="Enter Email"> <br> <br>
+          <label>Password: </label> <br>
+          <input type="password" name="password1" placeholder="Enter Password" required> <br> <br>
+          <label>Confirm Password: </label> <br>
+          <input type="password" name="password2" placeholder="Confirm Password" required> <br> <br>
+          <input type="checkbox" name="Remeber Me" value="Remeber Me" class = "checkbox"><span>Remember Me</span> <br><br>
+          <div class = "btnClass">
+            <button type="submit" name="submit" class = "button btn1" formaction="portfolio.html" formtarget="_blank" value = "Send Message">Submit
+            </button>
+            <button type="reset" name="button" class = "button btn2">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src = "form.js"></script>
+  </body>
+</html>

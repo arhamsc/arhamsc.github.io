@@ -1,0 +1,73 @@
+.parallaximg1
+{
+  background-image: url("gc1.jpg");
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(30%) blur(1.5px) brightness(.9);
+}
+.caption
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.main
+{
+  background-color: #660000;
+  padding: 20px;
+  font-size: 40px;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  opacity: 70%;
+}
+.parallaximg2
+{
+  background-image: url("gc1.png");
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(30%) blur(1.5px) brightness(.9);
+}
+.para
+{
+  background-color: #ff8080;
+  padding: 35px;
+  display: block;
+}
+h3,h1
+{
+  text-align: center;
+}
+.insidepara
+{
+  font-size: 18px;
+  text-align: center;
+}
+.parallaximg3
+{
+  background-image: url("shu.jpg");
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(30%) blur(1.5px) brightness(.9);
+}
+.parallaximg4
+{
+  background-image: url("inori.jpg");
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(30%) blur(1.5px) brightness(.9);
+}
