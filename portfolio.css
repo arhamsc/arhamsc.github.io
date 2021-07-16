@@ -342,7 +342,7 @@ hr{
   flex-direction: row;
 }
 
-@media (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   .frontDiv,.about,.skillsDiv,.projectsSection,.contactMatter{
     float: left;
   }
