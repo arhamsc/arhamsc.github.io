@@ -184,7 +184,7 @@ div.skillLeft ol li {
 .projectsSection{
   /* background-image: url('VectorGreen1.jpg');
   background-size:cover; */
-  height: 125vh;
+  /* height: 125vh; */
 }
 div.individualImages a img{
   height: 250px;
@@ -383,6 +383,7 @@ hr{
     background-size: cover;
     background-repeat: no-repeat;
     width: 180%;
+    height: 180vh;
   }
   .individualImages{
     margin-left: -20%;
@@ -397,6 +398,7 @@ hr{
     margin-left: 23%;
   }
 
+
 }
 @media (min-width: 481px) and (max-width: 1024px){
   .frontDiv{
@@ -409,6 +411,7 @@ hr{
     grid-template-rows: 450px 450px 450px 450px;
     margin-left: 19%;
     padding-top: 20px;
+
   }
   .rightElement a{
     padding: 30px 10px 0 20px;
@@ -416,6 +419,7 @@ hr{
   .projectsSection{
     background-image: url('VectorGreen1.jpg');
     background-size:cover;
+    height: 180vh;
   }
 
 
@@ -442,6 +446,7 @@ hr{
   .projectsSection{
     background-image: url('VectorGreen1.jpg');
     background-size:cover;
+    height: 125vh;
   }
 
 }
